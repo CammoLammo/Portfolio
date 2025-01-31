@@ -28,14 +28,13 @@ export default function About() {
                         </span>{" "}
                         currently pursuing a Master of Professional Engineering
                         at the University of Western Australia. I've had a
-                        fascination with computers since a young age from my
+                        fascination with computers since a young age, from my
                         early years gaming to dabbling with programming in
-                        primary school and it's a dream come true to turn my
-                        passion into a career. I bring tenacity and a strong
-                        work ethic to every project I'm a part of and I am
-                        always looking for the next challenge I can learn from.
-                        When I'm not working on my latest project, you can find
-                        me playing basketball or hitting the gym.
+                        primary school. Now, turning that passion into a career
+                        is a dream come true. I bring tenacity and a strong work
+                        ethic to every project and I am always seeking the next
+                        challenge I can learn from. When I'm not coding, you can
+                        find me on the basketball court or hitting the gym.
                     </p>
                 </div>
             </div>
