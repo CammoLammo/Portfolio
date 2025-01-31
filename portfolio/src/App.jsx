@@ -6,6 +6,7 @@ import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { curvesPathName } from "@tsparticles/path-curves";
 import { loadAll } from "@tsparticles/all";
 import { useEffect, useMemo, useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 const App = () => {
     const [init, setInit] = useState(false);
@@ -254,6 +255,7 @@ const App = () => {
                         <Projects />
                     </section>
                 </div>
+                <Analytics />
             </div>
         );
     }
