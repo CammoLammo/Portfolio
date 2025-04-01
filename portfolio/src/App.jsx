@@ -7,6 +7,7 @@ import { curvesPathName } from "@tsparticles/path-curves";
 import { loadAll } from "@tsparticles/all";
 import { useEffect, useMemo, useState } from "react";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 const App = () => {
     const [init, setInit] = useState(false);
@@ -256,6 +257,7 @@ const App = () => {
                     </section>
                 </div>
                 <Analytics />
+                <SpeedInsights />
             </div>
         );
     }
